@@ -202,6 +202,14 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
 }
 
+.cv-qr a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  word-break: break-all;
+}
+
 /* Main column */
 .cv-main {
   padding: 44px 42px 40px;
