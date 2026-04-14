@@ -1062,6 +1062,27 @@ footer strong { color: var(--ink); font-weight: 600; }
   .kpi-row {
     order: 5;
     margin: 0 24px 24px;
+    grid-template-columns: 1fr;
+    gap: 1px;
+  }
+  .kpi {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 16px 20px;
+    text-align: left;
+  }
+  .kpi-num {
+    font-size: 26px;
+    margin-bottom: 0;
+    order: 2;
+  }
+  .kpi-label {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    order: 1;
+    color: var(--ink-soft);
+    font-weight: 600;
   }
   .cv-main > .cv-block:nth-of-type(1) {
     order: 6;
