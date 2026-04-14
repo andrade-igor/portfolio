@@ -1062,27 +1062,19 @@ footer strong { color: var(--ink); font-weight: 600; }
   .kpi-row {
     order: 5;
     margin: 0 24px 24px;
-    grid-template-columns: 1fr;
-    gap: 1px;
   }
   .kpi {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 16px 20px;
-    text-align: left;
+    padding: 22px 8px 18px;
   }
   .kpi-num {
-    font-size: 26px;
-    margin-bottom: 0;
-    order: 2;
+    font-size: 24px;
+    margin-bottom: 8px;
+    line-height: 1;
   }
   .kpi-label {
-    font-size: 11px;
-    letter-spacing: 0.16em;
-    order: 1;
-    color: var(--ink-soft);
-    font-weight: 600;
+    font-size: 9.5px;
+    letter-spacing: 0.12em;
+    line-height: 1.35;
   }
   .cv-main > .cv-block:nth-of-type(1) {
     order: 6;
