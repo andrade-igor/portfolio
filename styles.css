@@ -1087,11 +1087,11 @@ footer strong { color: var(--ink); font-weight: 600; }
     border: none !important;
     box-shadow: none !important;
     background: var(--paper) !important;
-    min-height: 297mm;
-    height: 297mm;
-    width: 210mm;
-    max-width: 210mm;
-    grid-template-columns: 72mm 1fr !important;
+    height: 297mm !important;
+    width: 210mm !important;
+    max-width: 210mm !important;
+    min-height: 297mm !important;
+    grid-template-columns: 66mm 1fr !important;
     page-break-after: avoid;
     page-break-inside: avoid;
     overflow: hidden;
@@ -1099,99 +1099,105 @@ footer strong { color: var(--ink); font-weight: 600; }
 
   .cv-side {
     background: var(--paper-warm) !important;
-    padding: 12mm 7mm 10mm !important;
-    gap: 7mm !important;
+    padding: 8mm 6mm 7mm !important;
+    gap: 5mm !important;
     border-right: 1px solid var(--rule) !important;
   }
 
   .cv-main {
-    padding: 12mm 11mm 10mm !important;
+    padding: 8mm 9mm 7mm !important;
   }
 
   .cv-photo {
-    width: 42mm !important;
-    height: 42mm !important;
-    box-shadow: 0 0 0 1px var(--rule), 0 0 0 1.5mm var(--paper-warm), 0 0 0 1.7mm var(--accent) !important;
+    width: 38mm !important;
+    height: 38mm !important;
+    box-shadow: 0 0 0 1px var(--rule), 0 0 0 1.2mm var(--paper-warm), 0 0 0 1.4mm var(--accent) !important;
   }
 
-  .cv-name { font-size: 22pt !important; margin-bottom: 2mm !important; }
-  .cv-role { font-size: 8pt !important; letter-spacing: 0.2em !important; }
+  .cv-name { font-size: 18pt !important; margin-bottom: 1.5mm !important; }
+  .cv-role { font-size: 7pt !important; letter-spacing: 0.18em !important; }
 
   .cv-section-label {
-    font-size: 7pt !important;
-    margin-bottom: 3mm !important;
-    padding-bottom: 2mm !important;
+    font-size: 6.5pt !important;
+    margin-bottom: 2.5mm !important;
+    padding-bottom: 1.5mm !important;
   }
 
-  .cv-contact { gap: 2.5mm !important; font-size: 9pt !important; }
-  .cv-contact .row { gap: 2.5mm !important; }
+  .cv-contact { gap: 1.8mm !important; font-size: 8pt !important; }
+  .cv-contact .row { gap: 2mm !important; }
+  .cv-contact svg { width: 2.8mm !important; height: 2.8mm !important; }
 
   .cv-partner {
-    font-size: 7.5pt !important;
-    padding: 2mm 3mm !important;
+    font-size: 6.5pt !important;
+    padding: 1.5mm 2.5mm !important;
     background: var(--paper) !important;
+    letter-spacing: 0.08em !important;
   }
 
   .cv-qr {
-    padding-top: 5mm !important;
+    padding-top: 3mm !important;
   }
   .cv-qr img {
-    width: 32mm !important;
-    height: 32mm !important;
-    padding: 1.5mm !important;
+    width: 26mm !important;
+    height: 26mm !important;
+    padding: 1mm !important;
+    margin-bottom: 1.5mm !important;
   }
-  .cv-qr-label { font-size: 7pt !important; margin-bottom: 3mm !important; }
-  .cv-qr-hint { font-size: 7.5pt !important; margin-bottom: 3mm !important; }
+  .cv-qr-label { font-size: 6.5pt !important; margin-bottom: 2mm !important; }
+  .cv-qr-hint { font-size: 6.5pt !important; margin-bottom: 2mm !important; }
   .cv-qr-link {
     background: var(--accent) !important;
     color: var(--paper) !important;
-    padding: 2.5mm 2mm !important;
-    font-size: 7pt !important;
+    padding: 1.8mm 1.5mm !important;
+    font-size: 6pt !important;
+    letter-spacing: 0.06em !important;
   }
-  .cv-qr-link svg { width: 2.8mm !important; height: 2.8mm !important; }
+  .cv-qr-link svg { width: 2.5mm !important; height: 2.5mm !important; }
 
-  .cv-eyebrow { font-size: 7.5pt !important; margin-bottom: 4mm !important; }
+  .cv-eyebrow { font-size: 6.5pt !important; margin-bottom: 3mm !important; }
   .cv-headline {
-    font-size: 22pt !important;
-    line-height: 1.15 !important;
-    margin-bottom: 4mm !important;
+    font-size: 17pt !important;
+    line-height: 1.1 !important;
+    margin-bottom: 3mm !important;
   }
   .cv-summary {
-    font-size: 9.5pt !important;
-    line-height: 1.55 !important;
-    margin-bottom: 6mm !important;
+    font-size: 8.5pt !important;
+    line-height: 1.5 !important;
+    margin-bottom: 4mm !important;
   }
 
   .kpi-row {
-    margin-bottom: 6mm !important;
+    margin-bottom: 4mm !important;
     background: var(--rule) !important;
   }
   .kpi {
-    padding: 4mm 2mm !important;
+    padding: 2.5mm 1.5mm !important;
     background: var(--paper-warm) !important;
   }
-  .kpi-num { font-size: 18pt !important; margin-bottom: 1.5mm !important; }
-  .kpi-label { font-size: 6.5pt !important; }
+  .kpi-num { font-size: 14pt !important; margin-bottom: 1mm !important; }
+  .kpi-label { font-size: 5.5pt !important; letter-spacing: 0.12em !important; }
 
-  .cv-block { margin-bottom: 5mm !important; }
+  .cv-block { margin-bottom: 3.5mm !important; }
   .cv-block h2 {
-    font-size: 8pt !important;
-    margin-bottom: 3mm !important;
-    padding-bottom: 2mm !important;
+    font-size: 7pt !important;
+    margin-bottom: 2.5mm !important;
+    padding-bottom: 1.5mm !important;
+    letter-spacing: 0.16em !important;
   }
 
-  .xp-item { margin-bottom: 3.5mm !important; }
-  .xp-role { font-size: 10pt !important; }
-  .xp-period { font-size: 8pt !important; }
+  .xp-item { margin-bottom: 2.8mm !important; }
+  .xp-row { margin-bottom: 0.8mm !important; }
+  .xp-role { font-size: 9pt !important; }
+  .xp-period { font-size: 7pt !important; }
   .xp-desc {
-    font-size: 9pt !important;
-    line-height: 1.5 !important;
+    font-size: 8pt !important;
+    line-height: 1.45 !important;
   }
 
-  .skill-list { gap: 1.2mm !important; }
+  .skill-list { gap: 1mm !important; }
   .skill-list span {
-    font-size: 7.5pt !important;
-    padding: 1mm 2.5mm !important;
+    font-size: 6.8pt !important;
+    padding: 0.8mm 2mm !important;
     background: var(--paper-warm) !important;
   }
   .skill-list span.on {
@@ -1199,13 +1205,13 @@ footer strong { color: var(--ink); font-weight: 600; }
     color: var(--paper) !important;
   }
 
-  .cv-grid-2 { gap: 5mm !important; }
-  .cert-block { font-size: 9pt !important; line-height: 1.5 !important; }
-  .cert-block dt { font-size: 7.5pt !important; margin-top: 2.5mm !important; }
+  .cv-grid-2 { gap: 4mm !important; }
+  .cert-block { font-size: 8pt !important; line-height: 1.45 !important; }
+  .cert-block dt { font-size: 6.8pt !important; margin-top: 1.8mm !important; margin-bottom: 0.5mm !important; }
 
   .cv-page::before {
     background: var(--accent) !important;
-    height: 1.2mm !important;
+    height: 1mm !important;
   }
 
   /* Portfolio: não imprimir (só CV deve ser printável) */
